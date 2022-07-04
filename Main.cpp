@@ -23,7 +23,7 @@ int main() {
 
     cin >> playerChoice;
 
-    /** Choice #1
+    /**  Player presses #1
     *   Backstory
     */
 
@@ -50,7 +50,7 @@ int main() {
 
     //====================================================================================================================================================
 
-    /** Player presses 2
+    /** Player presses #2
     *   stepping out onto the pitch
     */
 
@@ -97,13 +97,11 @@ int main() {
         cout << "(3) to start the match\n"; //"I won't let you down!" - on Twine
 
         cin >> anyKey;
-
     }
 
     //====================================================================================================================================================
 
     //match starts
-
     cout << "===========================================================================\n";
     cout << "The whistle blows and you open your eyes. Your coach yells at you\n"
         "PAY ATTENTION THE GAME IS STARTING! Just like that the battle has begun.\n"
@@ -159,9 +157,7 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(5) Confront them without resorting to violence\n\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
-
         }
 
        //====================================================================================================================================================
@@ -178,11 +174,10 @@ int main() {
                 "attempt to calm the both of you down but that only makes matters worse. The match comes\n"
                 "to a temporary halt as things between you and the coach heats up. After publicly\n"
                 "criticizing you, a substitute was chosen to replace you. Realizing what you had just\n"
-                "done, you walk into the dressing room. Feeling embarrassed and frustrated.";
+                "done, you walk into the dressing room. Feeling embarrassed and frustrated.\n";
             cout << "===========================================================================\n";
             cout << "(3) Enter the dressing room\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
 
             cout << "During half-time, Kira temporarily sits beside you to offer some wisdom\n"
@@ -193,9 +188,7 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(6) Change into winter clothes and watch the rest of the game from the bench\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
-
         }
 
        //====================================================================================================================================================
@@ -219,7 +212,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(3) to continue!\n";
             cout << "===========================================================================\n";
-
             cin >> anyKey;
 
             cout << "During half-time, Kira temporarily sits beside you to offer some wisdom;\n"
@@ -231,7 +223,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(4) Change into winter clothes and watch the rest of the game from the bench\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
 
 
@@ -248,7 +239,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(2) I can spare a couple minutes\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
 
             /*Interview sequence starts
@@ -274,22 +264,21 @@ int main() {
                     "on your reactions during the game?\n";
 
                 cout << "===========================================================================\n";
-                cout << "(1) Blame others\n";
+                cout << "(3) Blame others\n";
                 cout << "===========================================================================\n";
-                cout << "(2) Be professional\n";
+                cout << "(4) Be professional\n";
                 cout << "===========================================================================\n";
-
                 cin >> playerChoice;
 
                 /*Interview sequence starts
                 * Blame others - bad ending
                 */
 
-                if (playerChoice == 1) {
+                if (playerChoice == 3) {
 
                     cout << "I thought I played pretty well and shouldn't have been taken off, if the others had better performances,\n"
                         "the game was an easy win.\n\n"
-                        "The coach and the rest of the team react badly to your comments.Disappointed with your attitude,\n"
+                        "The coach and the rest of the team react badly to your comments. Disappointed with your attitude,\n"
                         "the fans also retaliate.You end up with bad publicity and ultimately you are dropped from the first team.\n"
                         "Your career might've been more successful if you made wiser decisions.\n";
 
@@ -301,11 +290,11 @@ int main() {
                     * be professional - good ending
                     */
 
-                } if (playerChoice == 2) {
+                } if (playerChoice == 4) {
 
                     cout << "The whole team had a good performance but we were unlucky today, we'll come back stronger next time.\n"
-                        "The coach and the rest of the team react well to your comments.Impressed with your attitude, the fans also\n"
-                        "remain supportive of your efforts.You were notified to resume training with the first team. Given timeand the\n"
+                        "The coach and the rest of the team react well to your comments. Impressed with your attitude, the fans also\n"
+                        "remain supportive of your efforts.You were notified to resume training with the first team. Given time and the\n"
                         "right opportunity, your career might become as successful as you always dreamt of.\n";
 
                     cout << "================================================================================\n"
@@ -347,7 +336,7 @@ int main() {
             cout << "The coach congratulates you at halftime for a decent performance but decides to replace you with a more\n"
                 "experienced player. “You have room for improvement but you impressed me out there. You also choose the right\n"
                 "decisions in crucial moments, good job. Undoubtedly, you are disappointed not to have finished the match but\n"
-                "you realize this is a good starting point for your career.Additionally, you also learned an important lesson about\n"
+                "you realize this is a good starting point for your career. Additionally, you also learned an important lesson about\n"
                 "specific consequences that can result from various actions\n.";
             cout << "===========================================================================\n";
             cout << "(3) Change into warmer clothes and watch the rest of the game from the bench\n";
@@ -358,7 +347,6 @@ int main() {
        //====================================================================================================================================================
        // Pass to Kira sequence, opponent pushes next
        //====================================================================================================================================================
-
     }  
     
     if (playerChoice == 2) {
@@ -381,6 +369,7 @@ int main() {
         cout << "===========================================================================\n";
         cout << "(4)  Confront them without resorting to violence\n";
         cout << "===========================================================================\n";
+        cin >> playerChoice;
 
         if (playerChoice == 3) {
 
@@ -399,7 +388,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(3) to continue!\n";
             cout << "===========================================================================\n";
-
             cin >> anyKey;
 
             cout << "During half-time, Kira temporarily sits beside you to offer some wisdom;\n"
@@ -411,7 +399,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(4) Change into winter clothes and watch the rest of the game from the bench\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
 
             /*Interview sequence starts
@@ -427,7 +414,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(2) I can spare a couple minutes\n";
             cout << "===========================================================================\n";
-
             cin >> playerChoice;
 
             /*Interview sequence starts
@@ -457,7 +443,6 @@ int main() {
                 cout << "===========================================================================\n";
                 cout << "(2) Be professional\n";
                 cout << "===========================================================================\n";
-
                 cin >> playerChoice;
 
                 /*Interview sequence starts
@@ -515,7 +500,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(3) Head into half time break.\n";
             cout << "===========================================================================\n";
-
             cin >> anyKey;
 
             cout << "The coach congratulates you at halftime for a decent performance but decides to replace you with a more\n"
@@ -526,7 +510,6 @@ int main() {
             cout << "===========================================================================\n";
             cout << "(3) Change into warmer clothes and watch the rest of the game from the bench\n";
             cout << "===========================================================================\n";
-
             cin >> anyKey;
 
             cout << "Your team eventually wins the match with a goal from Kira. Your performance did not represent your fullest potential\n"
